@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] arg) {
 
         CustomersListCreation customersList = new CustomersListCreation();
-        List customers = customersList.create();
+        List<Customer> customers = customersList.create();
 
         FilteringDisplayFromCustomers filteredDisplay = new FilteringDisplayFromCustomers();
         filteredDisplay.show(customers);
