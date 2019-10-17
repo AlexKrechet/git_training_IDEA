@@ -1,6 +1,5 @@
 package ua.krechet.git.training;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
