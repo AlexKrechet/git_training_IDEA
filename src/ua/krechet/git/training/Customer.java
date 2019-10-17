@@ -10,7 +10,7 @@ public class Customer {
     }
 
     public String getName() {
-        return this.name;
+        return name;
     }
 
     public void setName(String name) {
@@ -18,7 +18,7 @@ public class Customer {
     }
 
     public int getAge() {
-        return this.age;
+        return age;
     }
 
     public void setAge(int age) {
