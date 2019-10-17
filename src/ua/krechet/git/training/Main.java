@@ -6,8 +6,10 @@ import java.util.List;
 public class Main {
     public static void main(String[] arg) {
 
-        new ArrayList customers = create();
+        CustomersListCreation customersList = new CustomersListCreation();
+        List customers = customersList.create();
 
-        public void show (List list);
+        FilteringDisplayFromCustomers filteredDisplay = new FilteringDisplayFromCustomers();
+        filteredDisplay.show(customers);
     }
 }
